@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  pdfapp:
+    build: .
+    ports:
+      - "3000:3001"
+    restart: unless-stopped
+    
